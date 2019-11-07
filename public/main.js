@@ -15,6 +15,7 @@ const rank = [
   'Queen',
   'King'
 ]
+
 const deck = []
 
 //create the deck
