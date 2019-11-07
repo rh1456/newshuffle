@@ -49,5 +49,5 @@ const makeAndShuffleDeck = () => {
   shuffleDeck()
 }
 
-document.addEventListener('click', dealCard)
+document.querySelector('button').addEventListener('click', dealCard)
 document.addEventListener('DOMContentLoaded', makeAndShuffleDeck)
